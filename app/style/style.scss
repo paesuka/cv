@@ -77,6 +77,7 @@ article> header h1 {
   }
   #profileInfo {
     transition: all 0.4s ease-out;
+    font-size: 0.5em;
     opacity: 0;
   }
   transition: height 0.4s ease-out;
@@ -90,6 +91,7 @@ article> header h1 {
   }
   #profileInfo {
     opacity: 1;
+    font-size: 1em;
     transition: all 0.4s ease-in;
   }
   height: 240px;

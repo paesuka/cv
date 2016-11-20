@@ -1,7 +1,7 @@
 module.exports = {
     "profilePicture": "../../assets/images.jpg",
     "profileData": {
-        "address": "my home address",
+        "addressLines": ["Room 07, 19/F", "Block B, Hilton Plaza", "Shatin, N.T.", "Hong Kong"],
         "telephoneNumber": "<a href=\"tel:+18008675309\">800-867-5309</a>",
         "email": "<a href=\"mailto:webmaster@example.com\">employee@example.com</a>"
     },
