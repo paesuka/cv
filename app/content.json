@@ -1,0 +1,97 @@
+module.exports = {
+    "profilePicture": "../../assets/images.jpg",
+    "profileData": {
+        "address": "my home address",
+        "telephoneNumber": "+852 2353 6643",
+        "email": "me@me.me"
+    },
+    "profileTitle": {
+        "name": "Luis Filipe dos Santos",
+        "title": "Nurse"
+    },
+    "content": [{
+        "title": "Personal Information",
+        "type": "listing",
+        "sections": [{
+            "title": "Nationality",
+            "content": "International"
+        }, {
+            "title": "Skype",
+            "content": "p.ch"
+        }, {
+            "title": "Goal",
+            "content": "歷雖我對相就不一發給也、下科山起還野人這，教各保？觀動然，可開親會也就投主接表企在，縣氣世必節華上臺的官一體你去大以有育有提重無簡正個，著房成決立了素中石料如座夠始我支小張計，學方神速員以許人女，是臺失有視不平以學代中奇生的美你愛通本於的以山義者國，是經因財及是維情不它小起為子完通此活童來真最經起龍施？團也活候前滿高子西園變們作以且位來一走美少到性在，得倒？"
+        }]
+    }, {
+        "title": "Key Skills & Strengths",
+        "type": "listing",
+        "sections": [{
+            "title": "Tools",
+            "content": "Java, JUnit, Mockito"
+        }, {
+            "title": "Concepts",
+            "content": "OOA/OOP"
+        }]
+    }, {
+        "title": "Interests",
+        "type": "listing",
+        "sections": [{
+            "title": "Cultural",
+            "content": "East Asia, in particular the residents"
+        }, {
+            "title": "Activities",
+            "content": "Traveling, meeting new people,"
+        }]
+    }, {
+        "title": "Education",
+        "type": "period",
+        "sections": [{
+            "title": "Bachelor of Science",
+            "subtitle": "Lucerne University of Applied Sciences and Arts",
+            "from": "07/2002",
+            "to": "09/2005",
+            "content": []
+        }]
+    }, {
+        "title": "Experience",
+        "type": "period",
+        "sections": [{
+            "title": "Software Engineer",
+            "subtitle": "Lucerne University of Applied Sciences and Arts",
+            "from": "07/2002",
+            "to": "03/2005",
+            "content": [
+                "Business Analysis, Requirements Engineering, & UX-Design",
+                ["sub", "listings", ["that goes", "deep"]],
+                "Software Design, Documentation, Implementation, Testing, & Release",
+                "Software and UX-Design Quality Assurance"
+            ]
+        }, {
+            "title": "Car Mechanic",
+            "subtitle": "Garage Peter, Geuensee",
+            "from": "07/2002",
+            "to": "08/2005",
+            "content": [
+                "Head of Garage and Customer Support",
+                "Repair & Servicework",
+                "Customer Support"
+            ]
+        }]
+    },{
+        "title": "References",
+        "type": "references",
+        "content": [{
+            "name": "name name",
+            "position": ["<a href=\"http://www.google.ch\">position</p>"],
+            "company": "<a href=\"http://www.google.ch\">company</a>",
+            "mail": "mail@mail.mail",
+            "tel": "tel tel tel"
+        },{
+            "name": "name2 name2",
+            "position": "position2",
+            "company": "company2",
+            "mail": "mail2@mail2.mail2",
+            "tel": "tel2 tel2 tel2"
+        }]
+    }]
+}
