@@ -1,6 +1,5 @@
 'use_strinct';
 
-// import './style.css';
 import './style/style.scss';
 
 import store from './store/store';

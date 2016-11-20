@@ -2,8 +2,8 @@ module.exports = {
     "profilePicture": "../../assets/images.jpg",
     "profileData": {
         "address": "my home address",
-        "telephoneNumber": "+852 2353 6643",
-        "email": "me@me.me"
+        "telephoneNumber": "<a href=\"tel:+18008675309\">800-867-5309</a>",
+        "email": "<a href=\"mailto:webmaster@example.com\">employee@example.com</a>"
     },
     "profileTitle": {
         "name": "Luis Filipe dos Santos",
@@ -82,16 +82,16 @@ module.exports = {
         "type": "references",
         "content": [{
             "name": "name name",
-            "position": ["<a href=\"http://www.google.ch\">position</p>"],
-            "company": "<a href=\"http://www.google.ch\">company</a>",
-            "mail": "mail@mail.mail",
-            "tel": "tel tel tel"
+            "position": "position",
+            "company": "<a href=\"http://www.google.ch\">Google</a>",
+            "mail": "<a href=\"mailto:webmaster@example.com\">employee@example.com</a>",
+            "tel": "<a href=\"tel:+18008675309\">800-867-5309</a>"
         },{
             "name": "name2 name2",
             "position": "position2",
             "company": "company2",
             "mail": "mail2@mail2.mail2",
-            "tel": "tel2 tel2 tel2"
+            "tel": "tel tel tel"
         }]
     }]
 }

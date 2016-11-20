@@ -7,7 +7,7 @@ export default class Listing extends React.Component {
             return (
                 <section key={i}>
                     <h2>{data.title}</h2>
-                    <p>{data.content}</p>
+                    <p dangerouslySetInnerHTML = {{__html: data.content}} />
                 </section>
             );
         });

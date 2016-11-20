@@ -9,7 +9,7 @@ export default class Period extends React.Component {
                         return this.createListing(contentData);
                     } else {
                         return (
-                            <li key={i}>{contentData}</li>
+                            <li key={i} dangerouslySetInnerHTML = {{__html: contentData}} />
                         );
                     }
                 })
@@ -27,7 +27,7 @@ export default class Period extends React.Component {
                     </div>
                     <div id="period-content">
                         <h2>{data.title}</h2>
-                        <h3>{data.subtitle}</h3>
+                        <h3 dangerouslySetInnerHTML = {{__html: data.subtitle}} />
                         {listing}
                     </div>
                 </section>
