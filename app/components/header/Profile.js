@@ -27,17 +27,8 @@ export default class Profile extends React.Component {
         }
     }
     render() {
-        if (this.state.showFullHeader) {
-            return (
-                <header className="full" id="profile">
-                    <ProfilePicture data={this.props.data.profilePicture}/>
-                    <ProfileInfo data={this.props.data.profileData}/>
-                    <ProfileTitle type={this.state.showFullHeader} data={this.props.data.profileTitle}/>
-                </header>
-            )
-        }
         return (
-            <header id="profile">
+            <header className={this.state.showFullHeader ? "full" : ""} id="profile">
                     <ProfilePicture data={this.props.data.profilePicture}/>
                     <ProfileInfo data={this.props.data.profileData}/>
                 <ProfileTitle type={this.state.full} data={this.props.data.profileTitle}/>
