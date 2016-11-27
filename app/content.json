@@ -20,9 +20,26 @@ module.exports = {
             "content": "p.ch"
         }, {
             "title": "Goal",
-            "content": "歷雖我對相就不一發給也、下科山起還野人這，教各保？觀動然，可開親會也就投主接表企在，縣氣世必節華上臺的官一體你去大以有育有提重無簡正個，著房成決立了素中石料如座夠始我支小張計，學方神速員以許人女，是臺失有視不平以學代中奇生的美你愛通本於的以山義者國，是經因財及是維情不它小起為子完通此活童來真最經起龍施？團也活候前滿高子西園變們作以且位來一走美少到性在，得倒？"
+            "content": "사용할 수있는 구절 많은 변화가 있지만, 대부분의, 주입 유머로, 어떤 형태의 변경을 입었거나 조금이라도 믿을 보이지 않는 단어를 무작위. 당신은 Lorem Ipsum의 통로를 사용하려는 경우, 당신은 텍스트의 가운데에 숨겨진 뭔가 당황 없다는 확신해야합니다"
         }]
     }, {
+        "title": "Education",
+        "type": "period",
+        "sections": [{
+            "title": "Bachelor of Science",
+            "subtitle": "Computer Science with Specialization in Software Systems",
+            "from": "07/2002",
+            "to": "09/2005",
+            "content": ["Lucerne Universisty of Applied Sciences & Arts",
+            "Horw", "Switzerland"]
+        }, {
+            "title": "Exchange Semester in South Korea",
+            "subtitle": "Computer Science",
+            "from": "07/2002",
+            "to": "09/2005",
+            "content": ["Hanyang University", "Seoul", "South Korea"]
+        }]
+    }, , {
         "title": "Key Skills & Strengths",
         "type": "listing",
         "sections": [{
@@ -31,26 +48,6 @@ module.exports = {
         }, {
             "title": "Concepts",
             "content": "OOA/OOP"
-        }]
-    }, {
-        "title": "Interests",
-        "type": "listing",
-        "sections": [{
-            "title": "Cultural",
-            "content": "East Asia, in particular the residents"
-        }, {
-            "title": "Activities",
-            "content": "Traveling, meeting new people,"
-        }]
-    }, {
-        "title": "Education",
-        "type": "period",
-        "sections": [{
-            "title": "Bachelor of Science",
-            "subtitle": "Lucerne University of Applied Sciences and Arts",
-            "from": "07/2002",
-            "to": "09/2005",
-            "content": []
         }]
     }, {
         "title": "Experience",
@@ -77,7 +74,17 @@ module.exports = {
                 "Customer Support"
             ]
         }]
-    },{
+    }, {
+        "title": "Interests",
+        "type": "listing",
+        "sections": [{
+            "title": "Cultural",
+            "content": "East Asia, in particular the residents"
+        }, {
+            "title": "Activities",
+            "content": "Traveling, meeting new people,"
+        }]
+    }, {
         "title": "References",
         "type": "references",
         "content": [{

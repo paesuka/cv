@@ -4,12 +4,12 @@ export default class ProfileTitle extends React.Component {
     render() {
         return (
             <div id="profileTitle" className={this.props.type ? 'full' : 'small'}>
-                <h1>
+                <p className="name">
                     {this.props.data.name}
-                </h1>
-                <h2>
+                </p>
+                <p className="title">
                     {this.props.data.title}
-                </h2>
+                </p>
             </div>
         );
     }

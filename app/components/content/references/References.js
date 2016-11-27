@@ -13,7 +13,9 @@ export default class References extends React.Component {
               <header>
                   <h1>{this.props.data.title}</h1>
               </header>
-              {referenceItems}
+	      <div className="referenceItems">
+	        {referenceItems}
+	      </div>
           </article>
       );
     }

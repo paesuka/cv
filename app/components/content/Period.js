@@ -21,12 +21,12 @@ export default class Period extends React.Component {
         return sections.map((data, i) => {
             const listing = this.createListing(data.content, i);
             return (
-                <section key={i}>
-                    <div id="period-date">
-                        <span>{data.from + ' - ' + data.to}</span>
-                    </div>
-                    <div id="period-content">
-                        <h2>{data.title}</h2>
+                <section className="period-section" key={i}>
+		    <div>
+                        <span className="period-date">{data.from + ' - ' + data.to}</span>
+                    <h2>{data.title}</h2>
+		    </div>
+                    <div className="period-content">
                         <h3 dangerouslySetInnerHTML = {{__html: data.subtitle}} />
                         {listing}
                     </div>
