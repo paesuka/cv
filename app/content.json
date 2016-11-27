@@ -33,7 +33,7 @@ module.exports = {
             "content": ["Lucerne Universisty of Applied Sciences & Arts",
             "Horw", "Switzerland"]
         }, {
-            "title": "Exchange Semester in South Korea",
+            "title": "Exchange Semester",
             "subtitle": "Computer Science",
             "from": "07/2002",
             "to": "09/2005",
@@ -44,7 +44,7 @@ module.exports = {
         "type": "listing",
         "sections": [{
             "title": "Tools",
-            "content": "Java, JUnit, Mockito"
+            "content": "Java, JUnit, Mockito, Hibernate, Maven, Liguibase, DB2, H2, WebSphere, JMeter, Jenkins, SonarQube, Jira, Subversion, Eclipse, Linux, & Windows"
         }, {
             "title": "Concepts",
             "content": "OOA/OOP"
@@ -54,7 +54,7 @@ module.exports = {
         "type": "period",
         "sections": [{
             "title": "Software Engineer",
-            "subtitle": "Lucerne University of Applied Sciences and Arts",
+            "subtitle": "Linux foundation",
             "from": "07/2002",
             "to": "03/2005",
             "content": [
