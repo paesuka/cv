@@ -75,6 +75,18 @@ module.exports = {
             ]
         }]
     }, {
+        "title": "Languages",
+        "type": "listing",
+        "sections": [{
+            "title": "Swiss German",
+            "subtitle": "Native",
+            "content": ["Allemanic dialect, inoffical language", "Spoken everyday language of all social levels in Switzerland"]
+        }, {
+            "title": "English",
+            "subtitle": "Fluent",
+            "content": []
+        }]
+    }, {
         "title": "Interests",
         "type": "listing",
         "sections": [{
