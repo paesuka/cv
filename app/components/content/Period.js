@@ -23,7 +23,7 @@ export default class Period extends React.Component {
             return (
                 <section className="period-section" key={i}>
 		    <div>
-                        <span className="period-date">{data.from + ' - ' + data.to}</span>
+                        <span className="period-date">{data.from + (data.to ? ' - ' + data.to : '')}</span>
                     <h2>{data.title}</h2>
 		    </div>
                     <div className="period-content">
