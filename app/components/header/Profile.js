@@ -28,11 +28,13 @@ export default class Profile extends React.Component {
     }
     render() {
         return (
+	    <div className="header-container">
             <header className={this.state.showFullHeader ? "full" : ""} id="profile">
                     <ProfilePicture data={this.props.data.profilePicture}/>
                     <ProfileInfo data={this.props.data.profileData}/>
                 <ProfileTitle type={this.state.full} data={this.props.data.profileTitle}/>
             </header>
+	    </div>
         )
     }
 };
